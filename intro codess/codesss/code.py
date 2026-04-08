@@ -7,6 +7,17 @@ print(type(a))
 # print(chr(b))
 
 
-c= "hello broo what's up"
 
-print(c[0])
+
+
+
+st = "1234223422444555454  dsagaiog  ,././/@#$" 
+
+print(type(st))
+
+b = True
+t = False
+print(type(b))
+print(type(t))
+
+
