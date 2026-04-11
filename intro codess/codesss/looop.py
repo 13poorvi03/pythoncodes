@@ -1,5 +1,6 @@
 
-i = 1
-while i <= 5:
+# for loop 
+a = range(1,20,1)
+
+for i in a:
     print(i)
-    i += 1
