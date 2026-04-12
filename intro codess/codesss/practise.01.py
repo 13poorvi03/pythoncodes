@@ -65,3 +65,70 @@
 
 
 #  accept a number and check 
+
+# n = int(input("Enter the number: "))
+# sum = 0
+
+# for i in range(1, n):
+#     if n % i == 0:
+#         sum += i
+
+# if sum == n:
+#     print("This is a perfect number:", sum)
+# else:
+#     print("This is not a perfect number")
+
+
+
+
+# prime number 
+
+# n = int(input("enter the number : "))
+# count = 0
+# for i in range(1, n+1):
+#     if n%i==0:
+#         count+=1
+
+# if count == 2:
+#     print("your number is prime ")
+# else:
+#     print("your number is not prime")         
+
+
+
+# reverse strings 
+
+# p = "Helloo jiii ki haal chaal "
+# l = "sab theek hai  "
+
+# for i in range(len(p)-1,-1,-1):
+#     print(p[i])
+
+# print(p+l)
+# print(p[::-1])
+
+
+
+# palindrome
+
+# h = "Appp kon ho bhai "
+# b = ""
+
+# for i in range(len(h)-1, -1, -1):
+#     b = b + h[i]
+
+# if b == h:
+#     print("Your string is palindrome")
+# else:
+#     print("Your string is not palindrome")
+
+
+
+
+# h = "madam"
+# if h == h[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not palindrome")
+
+
