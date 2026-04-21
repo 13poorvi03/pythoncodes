@@ -74,3 +74,15 @@ print(lst)
 
 # count use to count element how many time it is present in lst
 lst.count(20)
+
+# use reverse for reversing list 
+lst.reverse()
+print(lst)
+
+# for sorting list 
+lst.sort()
+print(lst)
+
+# inbuild sorted function 
+sorted([3,78,90,56,76])
+print(sorted([3,78,90,56,76]))
