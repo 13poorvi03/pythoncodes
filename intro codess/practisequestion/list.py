@@ -102,3 +102,7 @@ print(f"combined list : {combined}")
 # exercise - 11
 # list slicing extract middle elements
 
+List = [10, 20, 30, 40, 50, 60, 70]
+s = List[2:5]
+print(f"middle three : {s}")
+
