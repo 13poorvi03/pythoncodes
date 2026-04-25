@@ -106,3 +106,13 @@ List = [10, 20, 30, 40, 50, 60, 70]
 s = List[2:5]
 print(f"middle three : {s}")
 
+
+
+my_list = [10, 20, 30, 40, 50]
+
+print("Full list:", my_list)
+
+
+for item in my_list:
+    print(item)
+
