@@ -116,3 +116,14 @@ print("Full list:", my_list)
 for item in my_list:
     print(item)
 
+# Program to add two numbers and find their product
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+sum_result = num1 + num2
+
+product_result = num1 * num2
+
+print(f"Sum of {num1} and {num2} is: {sum_result}")
+print(f"Product of {num1} and {num2} is: {product_result}")
