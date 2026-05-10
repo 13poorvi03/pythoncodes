@@ -98,7 +98,7 @@ print(pto)
 
 # capitalize() - to convert the first character of the string to capital letter 
 
-challenge = "thirty days of python "
+challenge = "thirty days of python"
 print(challenge.capitalize())
 
 # count() -- returns occurrences of substring in string, count(substring, start=.., end=..). The start is a starting indexing for counting and end is the last index to count.
@@ -106,3 +106,40 @@ print(challenge.capitalize())
 print(challenge.count('y'))
 print(challenge.count('y',7,14))
 print(challenge.count('th'))
+
+
+# endwith() - checks if a string ends with a specified ending 
+
+print(challenge.endswith('on'))
+print(challenge.endswith('tion'))
+
+
+
+# expandtabs() - replaces tab character with spaces default tab size is 8 it takes tab size arguments 
+
+challenge = 'thirty\tdays\tof\tpython'
+print(challenge.expandtabs())
+print(challenge.expandtabs(10))
+
+
+# find() - returns the index of the first occurence of a substring , if not found return -1
+
+challenge = 'thirty days of python'
+print(challenge.find('y'))
+print(challenge.find('th'))
+
+# rfind(): Returns the index of the last occurrence of a substring, if not found returns -1
+
+print(challenge.rfind('y'))
+print(challenge.rfind('th'))
+
+
+# format(): formats string into a nicer output
+
+first_name = "poorvi"
+last_name = "sharma"
+age = 20
+job = "teacher"
+country = "India"
+sentence = " I am {} {} . I am a {}. I am {} years old . I live in {}".format(first_name, last_name, job, age, country)
+print(sentence)
