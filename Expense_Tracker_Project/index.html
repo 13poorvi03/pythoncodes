@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💸 Expense Tracker</h1>
+    <p class="tagline">Spend less bbygurl 😉</p>
+
+    <div class="menu">
+      <button onclick="showSection('add')">Add Expenses</button>
+      <button onclick="showSection('view')">View All Expenses</button>
+      <button onclick="showSection('total')">View Total Spending</button>
+      <button onclick="showSection('exit')">Exit</button>
+    </div>
+
+    <!-- Add Expense Section -->
+    <div id="add" class="section hidden">
+      <h2>Add Expense</h2>
+      <form id="expenseForm">
+        <input type="text" id="date" placeholder="dd-mm-yy" required>
+        <input type="text" id="category" placeholder="Category" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <button type="submit">Add</button>
+      </form>
+      <p id="msg"></p>
+    </div>
+
+    <!-- View All Expenses -->
+    <div id="view" class="section hidden">
+      <h2>All Expenses</h2>
+      <ul id="expenseList"></ul>
+    </div>
+
+    <!-- Total Spending -->
+    <div id="total" class="section hidden">
+      <h2>Total Spending</h2>
+      <p id="totalAmount">₹0</p>
+    </div>
+
+    <!-- Exit -->
+    <div id="exit" class="section hidden">
+      <h2>Exit</h2>
+      <p>Thank you for trusting us, meet again asap!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
